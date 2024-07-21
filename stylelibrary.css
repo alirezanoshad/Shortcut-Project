@@ -1,0 +1,100 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.main{
+    margin: 5% auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 710px;
+    width: 1200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    ;
+}
+.underDogs{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 370px;
+    width: 295px;
+    /* border-radius: 50%; */
+    border: 8px solid #e185ffa6;
+    outline: none;
+    box-shadow: -10px -10px 15px rgba(255,255,255,0.5), 10px 10px 15px rgba(70,.70,70,0.12);
+    /* transition: 1s; */
+}
+#underDogs-a{
+    text-decoration: none;
+    color: rgb(243, 203, 203);
+}
+
+#underDogs-a:hover{
+    color: #acc2c5;
+    font-size: 16.4px;
+}
+#underDogs-img{
+    width: 295px;
+    height: 200px;
+    /* margin: 5px; */
+}
+.localSchool{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 370px;
+    width: 290px; 
+    border: 8px solid #0bffff4f;
+    outline: none;
+    box-shadow: -10px -10px 15px rgba(255,255,255,0.5), 10px 10px 15px rgba(70,.70,70,0.12);
+    /* transition: 1s; */
+}
+#localSchool-a{
+    text-decoration: none;
+    color: rgb(243, 203, 203);
+}
+#localSchool-a :hover{
+    color: #acc2c5;
+    font-size: 16.4px;
+}
+#localSchool-img{
+    width: 290px;
+    height: 200px;
+    /* margin: 5px; */
+}
+footer{
+    background-color:#262626;
+    height: 13%;
+    width: 100%;
+    display: flex;
+}
+footer .github-div{
+    margin-top: 12px;
+    margin-left: 40px;
+}
+#github-icon{
+    height: 45px;
+    width: 47px;
+    margin-top: 10px;
+}
+.github-div a{
+    text-decoration: none;
+    color: aquamarine;
+}
+.github-div span{
+    /* margin-bottom: 55px; */
+    font-size: 18px;
+    margin-left: 5px;
+}
