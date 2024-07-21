@@ -76,9 +76,11 @@ body, html {
 }
 footer{
     background-color:#262626;
-    height: 13%;
+    height: 8%;
     width: 100%;
     display: flex;
+    position: fixed;
+    bottom: 0;
 }
 footer .github-div{
     margin-top: 12px;
@@ -87,7 +89,7 @@ footer .github-div{
 #github-icon{
     height: 45px;
     width: 47px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .github-div a{
     text-decoration: none;
